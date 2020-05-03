@@ -1,4 +1,4 @@
-# RNN-Keras
+# Multiple-Outputs and Multiple-Losses RNN in Keras
 The project consists of a Multi-Label Text Classifier project using a RNN from Keras.
 
 The dataset consists of disaster messages that are classified into 36 different classes. The goal of the project is to classify an input message into these different classes.
