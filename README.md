@@ -3,7 +3,7 @@ The project consists of a Multi-Label Text Classifier project using a RNN from K
 
 The dataset consists of disaster messages that are classified into 36 different classes. The goal of the project is to classify an input message into these different classes.
 
-The goal of the project is to explain how to deal with **Multiple-Outputs and Multiple-Losses RNN in Keras**. The project comes across this issue https://github.com/keras-team/keras/issues/8011 and present a solution.
+The goal of the project is to explain how to deal with **Multiple-Outputs and Multiple-Losses RNN in Keras**. The project comes across this issue https://github.com/keras-team/keras/issues/8011 and presents a solution.
 
 There are two approches on the project:
 - Creating the Embeddings using Keras Embedding Layer
