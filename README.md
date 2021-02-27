@@ -12,7 +12,6 @@ There are two approches on the project:
 You can check the [Medium Post](https://medium.com/@danieldacosta_75030/text-classifier-with-multiple-outputs-and-multiple-losses-in-keras-4b7a527eb858) for further details.
 
 ## Dataset
-
 The dataset consists of disaster messages that are classified into 36 different classes. The dataset in highly imbalanced, having different distributions for each class. In order to reduce this problem a class weighted approach was used, where we make the classifier aware of the imbalanced data by incorporating the weights of classes into the cost function.
 
 In the RNN model, a ```class_weight``` paramater was set in order to reduce the imbalaced distributions problems.
