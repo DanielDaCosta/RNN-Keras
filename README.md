@@ -14,7 +14,7 @@ Check the [Medium Post](https://medium.com/@danieldacosta_75030/text-classifier-
 ## Dataset
 The dataset consists of disaster messages that are classified into 36 different classes. The dataset in highly imbalanced, having different distributions for each class. In order to reduce this problem a class weighted approach was used, where we make the classifier aware of the imbalanced data by incorporating the weights of classes into the cost function.
 
-In the RNN model, a ```class_weight``` paramater was set in order to reduce the imbalaced distributions problems.
+In the RNN model, a ```class_weight``` paramater was set in order to reduce the imbalaced distributions problem.
 
 ## Acknowledgments and References
 - Jeffrey Pennington, Richard Socher, and Christopher D. Manning. 2014. GloVe: Global Vectors for Word Representation.
