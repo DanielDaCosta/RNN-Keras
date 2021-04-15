@@ -9,7 +9,7 @@ There are two approches on the project:
 - Creating the Embeddings using Keras Embedding Layer
 - Using [Glove](https://nlp.stanford.edu/projects/glove/) pre-trained embedding
 
-Check the [Medium Post](https://medium.com/@danieldacosta_75030/text-classifier-with-multiple-outputs-and-multiple-losses-in-keras-4b7a527eb858) for further details!
+Check the [Text Classifier with Multiple Outputs and Multiple Losses in Keras](https://medium.com/@danieldacosta_75030/text-classifier-with-multiple-outputs-and-multiple-losses-in-keras-4b7a527eb858) for further details!
 
 ## Dataset
 The dataset consists of disaster messages that are classified into 36 different classes. The dataset in highly imbalanced, having different distributions for each class. In order to reduce this problem a class weighted approach was used, where we make the classifier aware of the imbalanced data by incorporating the weights of classes into the cost function.
